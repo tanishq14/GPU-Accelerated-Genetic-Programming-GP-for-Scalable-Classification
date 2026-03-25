@@ -1,5 +1,7 @@
 *.mp4
 *.pptx
-*.csv
+*sample_submission.csv
+*train.csv
+*test.csv
 
 .vscode/settings.json
