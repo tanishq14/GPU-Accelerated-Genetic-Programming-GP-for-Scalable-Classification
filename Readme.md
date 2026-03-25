@@ -42,7 +42,7 @@ DEAP's compile function runs in a restricted environment that initially prevente
 
 *Solution:* I applied the pset.context to include builtins, granting CuPy the necessary permissions to compile the evolved logic directly on the GPU hardware
 
-## Performance & Results
+## 📈 Performance & Results
 
 The model was evolved over **70 generations** with a population of **1,000 individuals** as the process proves significant improvement from the initial random population to the final optimized classifier:
 
