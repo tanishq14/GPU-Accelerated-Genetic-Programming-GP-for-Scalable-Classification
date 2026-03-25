@@ -81,3 +81,9 @@ Data Science: Pandas, NumPy
 
 ## 🧠 Optimization Insight: The "Sandbox" Fix
 Genetic Programming in DEAP compiles trees using eval(), which runs in a restricted context. To enable CuPy's Just-In-Time (JIT) compilation of GPU kernels, the compilation context was modified to explicitly include builtins, allowing the GPU to dynamically compile the mathematical expressions evolved by the algorithm.
+
+## Conclusion:
+
+**Interpretable AI:** Showcasing a core MedTech capability by evolving "white-box" symbolic expressions that provide transparent reasoning—a critical requirement for regulated healthcare sectors in Ireland.
+
+**Scalable MLOps:** Demonstrated the ability to bridge the gap between complex evolutionary algorithms and modern hardware acceleration to solve high-dimensional data challenges.
