@@ -1,5 +1,5 @@
 
-# GPU-Accelerated Genetic Programming for Diabetes Classification
+# GPU-Accelerated Genetic Programming: Diabetes Health Indicator Classifier
 This repository features a high-performance Genetic Programming (GP) implementation developed using the DEAP framework and optimized for GPUs via CuPy. The project focuses on evolving symbolic mathematical expressions to solve binary classification tasks on large-scale datasets.
 
 ## 🚀 Key Engineering Highlights
