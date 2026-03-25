@@ -12,11 +12,10 @@ This repository features a high-performance Genetic Programming (GP) implementat
 
 **Evolutionary Strategy:** Utilizes an elitism-based approach (ea_with_elitism), preserving the top 2 individuals per generation to guarantee that the maximum fitness never regresses.
 
-## 📊 Dataset: Diabetes Health Indicators (CDC BRFSS)
+## 📊 Dataset: Diabetes Health Indicators [[CDC BRFSS]](https://www.kaggle.com/competitions/cs-6271-2024-5-final-project/data)
 The model is trained on a dataset containing health-related survey responses from 95,804 individuals. The objective is to predict whether an individual has diabetes based on 21 clinical and lifestyle risk factors.
 
-Target Variable
-output: Binary classification (0 = No Diabetes, 1 = Diabetes/Pre-diabetes).
+Target Variable output: Binary classification (0 = No Diabetes, 1 = Diabetes/Pre-diabetes).
 
 Key Feature Categories (21 Total)
 To solve this, the Genetic Programming algorithm evolved a symbolic expression using features across three critical domains:
@@ -45,7 +44,11 @@ DEAP's compile function runs in a restricted environment that initially prevente
 
 ## 📊 Performance & Results
 
-The model was evolved over **70 generations** with a population of **1,000 individuals**.
+The model was evolved over **70 generations** with a population of **1,000 individuals** as the process proves significant improvement from the initial random population to the final optimized classifier:
+
+***Generation 0:*** Started with an average fitness of ~52%.
+
+***Generation 70:*** Converged to a peak accuracy of 73.97%.
 
 **Training Dataset:** 95,804 samples.
 
@@ -56,6 +59,8 @@ The model was evolved over **70 generations** with a population of **1,000 indiv
 **Peak Accuracy:** Successfully reached an accuracy of 73.97% on the training set.
 
 **Final Output:** Classified 95,804 test samples into binary outputs (0 or 1) based on the best-evolved symbolic expression.
+
+![Final Evolutionary Results](docs/screenshots/evolutionaryresults.png)
 
 ## 🛠️ Technical Stack
 Language: Python 3.9
